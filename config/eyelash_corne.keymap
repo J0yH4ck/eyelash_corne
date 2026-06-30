@@ -82,7 +82,14 @@
         full_window: full_window {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp SPACE>, <&macro_wait_time 10>, <&kp X>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp SPACE>,
+                <&macro_release>,
+                <&kp LEFT_ALT &kp SPACE>,
+                <&macro_wait_time 10>,
+                <&macro_tap>,
+                <&kp X>;
 
             label = "FULL_WINDOW";
         };
