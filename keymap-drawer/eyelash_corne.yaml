@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - Gui+$$mdi:arrow-up-bold$$
+  - '&full_window'
   - Y
   - U
   - I
