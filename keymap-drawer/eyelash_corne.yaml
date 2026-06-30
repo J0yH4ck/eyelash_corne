@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - '&full_window'
+  - '&full_window_ammend'
   - Y
   - U
   - I
@@ -130,8 +130,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - {t: Ctl+X, type: held}
-  - Ctl+Sft+C
-  - Ctl+Sft+V
+  - Ctl+C
+  - Ctl+V
   - Ctl+Y
   - Gui+D
   - {t: '$$mdi:transfer$$', type: trans}
