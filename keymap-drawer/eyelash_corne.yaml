@@ -31,9 +31,9 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-command$$
   - Z
-  - X
-  - C
-  - V
+  - {t: X, h: NUMBER}
+  - {t: C, h: Fn}
+  - {t: V, h: SETTING}
   - B
   - Gui+D
   - Gui+$$mdi:arrow-down-bold$$
@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - '&td_alt_navToggle'
+  - '&td_alt_toNav'
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - '&td_space_caps_ltNum'
@@ -129,7 +129,7 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
-  - Ctl+X
+  - {t: Ctl+X, type: held}
   - Ctl+Sft+C
   - Ctl+Sft+V
   - Ctl+Y
@@ -141,7 +141,7 @@ layers:
   - '3'
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - '&td_alt_navToggle'
+  - '&td_alt_toNav'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
@@ -179,7 +179,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+D
@@ -190,7 +190,7 @@ layers:
   - F3
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&td_alt_navToggle'
+  - '&td_alt_toNav'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
@@ -229,7 +229,7 @@ layers:
   - RGB TOG
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - RGB EFF
   - Gui+D
   - {t: '$$mdi:transfer$$', type: trans}
@@ -239,7 +239,7 @@ layers:
   - RGB BRI
   - RGB BRD
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&td_alt_navToggle'
+  - '&td_alt_toNav'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
