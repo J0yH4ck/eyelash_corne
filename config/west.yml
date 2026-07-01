@@ -29,9 +29,6 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: zmk-v0.3.0.0
-    - name: nice-view-gem
-      remote: J0yH4ck
-      revision: main
     - name: hammerbeam-slideshow
       remote: J0yH4ck
       revision: main
