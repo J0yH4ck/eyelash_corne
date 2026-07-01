@@ -46,8 +46,8 @@ layers:
   - '&td_alt_toNav'
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - $$mdi:apple-keyboard-shift$$
-  - '&td_space_caps_ltNum'
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&td_space_caps_ltNum'
   - {t: '$$mdi:backspace$$', type: backspace}
   NAVIGATE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -95,8 +95,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: NUMBER, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
   - {t: '`', s: '~'}
@@ -144,8 +144,8 @@ layers:
   - '&td_alt_toNav'
   - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   Fn:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -193,8 +193,8 @@ layers:
   - '&td_alt_toNav'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - F10
   SETTING:
   - $$mdi:bluetooth-off$$
@@ -242,8 +242,8 @@ layers:
   - '&td_alt_toNav'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
