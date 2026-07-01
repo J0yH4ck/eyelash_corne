@@ -44,7 +44,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - '&td_alt_toNav'
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - $$mdi:apple-keyboard-shift$$
   - '&td_space_caps_ltNum'
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -142,7 +142,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - '&td_alt_toNav'
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
