@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - '&full_window_ammend'
+  - Gui+$$mdi:arrow-up-bold$$
   - Y
   - U
   - I
@@ -30,7 +30,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-command$$
-  - Z
+  - {t: Z, h: NAVIGATE}
   - {t: X, h: NUMBER}
   - {t: C, h: Fn}
   - {t: V, h: SETTING}
@@ -79,7 +79,7 @@ layers:
   - PgDn
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: NUMBER, h: toggle}
   - {t: Fn, h: toggle}
   - {t: SETTING, h: toggle}
