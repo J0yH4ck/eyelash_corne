@@ -130,7 +130,7 @@
         };
 
         SETTING {
-            display-name = "SETTINGewrerwerrdsffsdfewrwer";
+            display-name = "SETTING";
             bindings = <
 &bt BT_CLR  &none            &none         &none          &none         &none                                 &trans          &none            &none            &none            &none            &none            &kp BACKSPACE
 &to 0       &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4                  &trans  &trans  &trans  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &none            &none
