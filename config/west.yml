@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cormoran
       url-base: https://github.com/cormoran
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
     - name: J0yH4ck
       url-base: https://github.com/J0yH4ck
   projects:
@@ -29,6 +31,9 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: zmk-v0.3.0.0
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
     - name: hammerbeam-slideshow
       remote: J0yH4ck
       revision: main
