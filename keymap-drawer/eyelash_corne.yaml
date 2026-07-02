@@ -33,7 +33,7 @@ layers:
   - {t: Z, h: NAVIGATE}
   - {t: X, h: NUMBER}
   - {t: C, h: Fn}
-  - {t: V, h: SETTING}
+  - {t: V, h: SETTINGewrerwerrdsffsdfewrwer}
   - B
   - Gui+D
   - Gui+$$mdi:arrow-down-bold$$
@@ -82,7 +82,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: NUMBER, h: toggle}
   - {t: Fn, h: toggle}
-  - {t: SETTING, h: toggle}
+  - {t: SETTINGewrerwerrdsffsdfewrwer, h: toggle}
   - $$mdi:mouse-right-click-outline$$
   - Gui+D
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - F10
-  SETTING:
+  SETTINGewrerwerrdsffsdfewrwer:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
